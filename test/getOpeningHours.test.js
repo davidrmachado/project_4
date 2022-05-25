@@ -1,3 +1,4 @@
 const getOpeningHours = require('../src/getOpeningHours');
 
-describe('Testes da função getOpeningHours', () => {});
+describe('12 - Testes da função getOpeningHours', () => {
+});

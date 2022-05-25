@@ -48,4 +48,10 @@ describe('6 - Cria uma função que retorna informações referentes aos elefant
     const expected = 'Parâmetro inválido, é necessário uma string';
     expect(actual).toBe(expected);
   });
+
+  it('ao passar um argumento que não é uma string retorna "Parâmetro inválido, é necessário uma string"', () => {
+    const actual = handlerElephants('elefante');
+    const expected = null;
+    expect(actual).toBe(expected);
+  });
 });
